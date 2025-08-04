@@ -1,0 +1,108 @@
+{
+  "navbar": {
+    "industries": "Industries We Serve",
+    "banking": "Banking",
+    "health": "Healthcare / Life Sciences / Clinical Tech",
+    "iot": "High Tech / IoT Devices",
+    "hr": "Human Resources",
+    "finance": "Finance / GL / AR / AP",
+    "resources": "Resources",
+    "blog": "Blog & Articles",
+    "cases": "Success Stories",
+    "newsletter": "Newsletter",
+    "downloads": "Downloads",
+    "services": "Services/Solutions",
+    "all_services": "All Services",
+    "digital": "Digital Transformation",
+    "ai": "Generative AI",
+    "company": "Company",
+    "what_we_do": "What We Do",
+    "support": "Support",
+    "careers": "Careers",
+    "partners": "Partners",
+    "about": "About Us",
+    "search": "Search...",
+    "language": "Language",
+    "contactUs": "Contact Us",
+    "createBy": "All rights reserved | DRTechGroup, LLC | Created by",
+    "payroll": "Payroll"
+  },
+
+  "Home": {
+    "hero_title": "Leader in Migrating Your On-Premise Server, Including Data + AI, to the Cloud.",
+    "cards": {
+      "learnMore": "Learn more",
+      "data": {
+        "title": "Data + AI",
+        "description": "Data is information, an asset. Let’s make yours work!"
+      },
+      "architecture": {
+        "title": "Architecture",
+        "description": "Infrastructure expertise for data engineering, ML, and AI."
+      },
+      "migration": {
+        "title": "Migrations",
+        "description": "End-to-end cloud migrations; ROI with our accelerators."
+      },
+      "delivery": {
+        "title": "Deliveries",
+        "description": "Experience in advising and getting the job done on time."
+      }
+    },
+    "blog": "Blog & Articles",
+    "firstPost": "Why are consulting jobs on the rise?",
+    "secondPost": "Advice from a New York consultant",
+    "thirdPost": "How to think about problems more efficiently?",
+    "viewArticle": "View Article",
+    "view": "Views:"
+    
+  },
+  
+  "Newsletter": {
+    "title": "Get Updates from Our Newsletter",
+    "description": "Discover everything about data analytics and AI, and get valuable insights for your business. Zero spam guaranteed. You can unsubscribe anytime.",
+    "form": {
+      "firstName": "First Name",
+      "firstNamePlaceholder": "John ...",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Doe ...",
+      "role": "Role",
+      "rolePlaceholder": "Manager, assistant ...",
+      "email": "E-mail",
+      "emailPlaceholder": "example@hotmail.com",
+      "message": "Message",
+      "messagePlaceholder": "Type your message here...",
+      "subscribe": "Subscribe",
+      "imageAlt": "Contact us"
+    }
+  },
+
+  "aboutUs": {
+    "title": "About Us",
+    "description": "\"Empowering Business Success Through Data & AI Excellence.\"",
+    "paragraphs": {
+      "1" :"At DRTechGroup, we are trailblazers in the optimization of business intelligence and seamless data integration, with deep expertise in cutting-edge Oracle Cloud technologies. Founded with a forward-thinking vision, we empower organizations to transform the way they access, process, and leverage data—converting complex information into actionable insights that fuel strategic growth and drive operational excellence.",
+
+      "2" : "Our deep expertise is focused on leading tools such as Oracle Business Intelligence Publisher (BIP), for agile and precise report generation; Oracle Business Intelligence Enterprise Edition (OBIEE), for advanced data visualization and analysis; and expert solutions in system integrations that ensure a seamless and uninterrupted flow of information across your technological ecosystem. We understand that in today's business landscape, the ability to gain relevant and timely insights is crucial. Therefore, our team of highly qualified specialists is dedicated to designing and implementing customized solutions that not only solve our clients' current challenges but also prepare them for the future.",
+
+      "3" : "We pride ourselves on being more than just a service provider; we are a strategic partner committed to our clients' success. Our mission is to empower businesses to make smarter, faster decisions by maximizing the power of their data and ensuring their systems operate in perfect harmony. Trust DRTechGroup to take your analytics and integration capabilities to the next level."
+    }
+  },
+
+  "WhatWeDo": {
+    "title": "What we do",
+    "paragraphs" :{
+      "1" : "DRTechGroup is a leading technology consultancy that provides strategy, thought leadership, design and software and data engineering to give enterprises the ability go get their time back and execute goals to achieve marketplace dominance.",
+
+      "2" : "At our core data engineering, data science, data warehousing, and let's face it any thing data is in our wheelhouse. We realize not all enterprises have kept pace with current trends and are in need of a slower pace of innovation, while other institutions are barreling ahead to be on the cutting edge. While budgets and appetites for technological excellence vary DRTechGroup has built accelerator products, project methodologies, development frameworks around the way enterprise organizations need to execute development of solutions so that we can deliver to expectations from first engagement to infinity and beyond.",
+
+      "3" : "We leverage our vast experience to improve our clients' ability to respond to change; utilize data (data-driven organizations rock!) as well as Artificial Intelligence (AI) to reach the next level of attaining value.",
+
+      "4" : "We create and implement technology platform and frameworks that enable are flexible, scalable, and those which can move with business strategies just like your team moves to adjust to market demands.",
+
+      "5" : "DRTechGroup delivers excellent digital products and strategy that makes a positive impact on your business, whether that's at the departmental level or at the executive level. We stand by our work product and can guarantee our solutions; that's what we do."
+    }
+  }
+}
+
+

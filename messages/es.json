@@ -1,0 +1,105 @@
+{
+  "title": "Hola mundo",
+  "navbar": {
+    "industries": "Industrias que Facilitamos",
+    "banking": "Banca",
+    "health": "Salud / Ciencias de la Vida / Tecnología Clínica",
+    "iot": "Alta Tecnología / Dispositivos IoT",
+    "hr": "Recursos Humanos",
+    "finance": "Finanzas / GL / AR / AP",
+    "resources": "Recursos",
+    "blog": "Blog y Artículos",
+    "cases": "Casos de Éxito",
+    "newsletter": "Boletín",
+    "downloads": "Descargas",
+    "services": "Servicios/Soluciones",
+    "all_services": "Todos los Servicios",
+    "digital": "Transformación Digital",
+    "ai": "IA Generativa",
+    "company": "Compañía",
+    "what_we_do": "Qué Hacemos",
+    "support": "Soporte",
+    "careers": "Carreras",
+    "partners": "Socios",
+    "about": "Nosotros",
+    "search": "Buscar...",
+    "language": "Idioma",
+    "contactUs": "Contáctanos",
+    "createBy": "Derechos reservados | DRTechGroup, SRL | Creado por",
+    "payroll": "Nómina"
+  },
+  
+  "Home": {
+    "hero_title": "Líder en Migración de tu Servidor Local, Incluyendo la Data + IA, en la Nube.",
+    "cards": {
+      "learnMore": "Saber más",
+      "data": {
+        "title": "Data + IA",
+        "description": "Los datos son información, un activo. ¡Hagamos que los suyos funcionen!"
+      },
+      "architecture": {
+        "title": "Arquitectura",
+        "description": "Infraestructura de orientación experta para ingeniería de datos, ML, IA."
+      },
+      "migration": {
+        "title": "Migraciones",
+        "description": "Migraciones a la nube E2E; ROI con nuestros aceleradores."
+      },
+      "delivery": {
+        "title": "Entregas",
+        "description": "Experiencia en asesorar y realizar el trabajo a tiempo."
+      }
+    },
+    "blog": "Blog y Artículos",
+    "firstPost": "Por qué están en aumento los empleos de consultoría?",
+    "secondPost": "Consejos de un consultor de Nueva York",
+    "thirdPost": "Cómo pensar en los problemas de manera mas eficiente?",
+    "viewArticle": "Ver Artículo",
+    "view": "Vistas:"
+  },
+
+  
+  "Newsletter": {
+    "title": "Recibe Novedades de Nuestro Boletín",
+    "description": "Descubre todo sobre análisis de datos e IA, y obtén valiosos insights para tu negocio. Cero spam garantizado. Podrás anular la suscripción en cualquier momento.",
+    "form": {
+      "firstName": "Nombre",
+      "firstNamePlaceholder": "Raul ...",
+      "lastName": "Apellido",
+      "lastNamePlaceholder": "Perez ...",
+      "role": "Puesto",
+      "rolePlaceholder": "Director, secretaria ...",
+      "email": "E-mail",
+      "emailPlaceholder": "example@hotmail.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Escribe aquí tu mensaje...",
+      "subscribe": "Subscribir",
+      "imageAlt": "Contáctanos"
+    }
+  },
+
+  "aboutUs": {
+    "title": "Sobre Nosotros",
+    "description": "\"Impulsando el exito empresarial a traves de la excelencia en datos e IA\"",
+    "paragraphs": {
+      "1" : "En DRTechGroup, somos pioneros en la optimización de la inteligencia de negocio y la integración de datos, especializándonos en las robustas tecnologías de Oracle. Nacimos con la visión de transformar la manera en que las organizaciones acceden, procesan y utilizan su información, convirtiendo los datos brutos en conocimientos estratégicos que impulsan el crecimiento y la eficiencia operativa.",
+      "2" : "Nuestra profunda experiencia se centra en herramientas líderes como Oracle Business Intelligence Publisher (BIP), para una generación de informes ágil y precisa; Oracle Business Intelligence Enterprise Edition (OBIEE), para la visualización y análisis de datos avanzados; y soluciones expertas en integraciones de sistemas que aseguran un flujo de información fluido y sin interrupciones a través de su ecosistema tecnológico. Entendemos que en el panorama empresarial actual, la capacidad de obtener información relevante y oportuna es crucial. Por ello, nuestro equipo de especialistas altamente cualificados se dedica a diseñar e implementar soluciones personalizadas que no solo resuelven los desafíos actuales de nuestros clientes, sino que también los preparan para el futuro.",
+      "3" : "Nos enorgullecemos de ser más que un proveedor de servicios; somos un socio estratégico comprometido con el éxito de nuestros clientes. Nuestra misión es empoderar a las empresas para que tomen decisiones más inteligentes y rápidas, aprovechando al máximo el poder de sus datos y garantizando que sus sistemas operen en perfecta armonía. Confíe en DRTechGroup para llevar su capacidad de análisis e integración al siguiente nivel."
+    }
+  },
+
+  "WhatWeDo": {
+    "title": "Qué hacemos",
+    "paragraphs" :{
+      "1" : "DRTechGroup es una destacada consultora tecnológica que ofrece estrategia, liderazgo de pensamiento, diseño, así como ingeniería de software y de datos, brindando a las empresas la capacidad de recuperar su tiempo y ejecutar sus objetivos para alcanzar el dominio en el mercado.",
+
+      "2" : "En esencia, la ingeniería de datos, la ciencia de datos, los almacenes de datos y, seamos honestos, todo lo relacionado con datos es nuestra especialidad. Entendemos que no todas las empresas han seguido el ritmo de las tendencias actuales y algunas necesitan avanzar a un ritmo más pausado, mientras que otras instituciones se apresuran por estar a la vanguardia. Aunque los presupuestos y el apetito por la excelencia tecnológica varían, en DRTechGroup hemos desarrollado productos aceleradores, metodologías de proyecto y marcos de desarrollo adaptados a la forma en que las organizaciones empresariales necesitan ejecutar sus soluciones. Así, podemos cumplir con las expectativas desde el primer contacto hasta el infinito… y más allá.",
+
+      "3" : "Aprovechamos nuestra amplia experiencia para mejorar la capacidad de nuestros clientes de adaptarse al cambio, utilizar los datos (¡las organizaciones impulsadas por datos son increíbles!) y aplicar la Inteligencia Artificial (IA) para alcanzar un nuevo nivel en la generación de valor.",
+
+      "4" : "Creamos e implementamos plataformas tecnológicas y marcos de trabajo que son flexibles, escalables y capaces de adaptarse a las estrategias del negocio, del mismo modo en que tu equipo se ajusta a las demandas del mercado.",
+      
+      "5" : "En DRTechGroup ofrecemos productos digitales y estrategias de excelencia que generan un impacto positivo en tu negocio, ya sea a nivel departamental o ejecutivo. Respaldamos nuestro trabajo y garantizamos la calidad de nuestras soluciones; eso es lo que hacemos."
+    }
+  }
+}
