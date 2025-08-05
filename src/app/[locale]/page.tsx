@@ -22,7 +22,7 @@ export default async function Home() {
           <h2 className="text-[2.3rem] font-bold">{t('cards.data.title')}</h2>
           <p className="text-[1.3rem] px-[3.5rem] h-[10rem]">{t('cards.data.description')}</p>
           <div className="my-[2rem] text-[1.8rem] bg-[#5CA241] w-[60%]  rounded-lg mx-[auto] text-white border-2 border-transparent hover:border-[#5CA241] hover:bg-white hover:text-[#5CA241]">
-            <Link href="/construction"><p className="text-center leading-[2.7rem] font-bold">{t('cards.learnMore')}</p></Link>
+            <Link href="/construction"><p className="text-center leading-[2.7rem]">{t('cards.learnMore')}</p></Link>
           </div>
         </div>
 
@@ -31,16 +31,16 @@ export default async function Home() {
           <h2 className="text-[2.3rem] font-bold">{t('cards.architecture.title')}</h2>
           <p className="text-[1.3rem] px-[3.5rem] h-[10rem]">{t('cards.architecture.description')}</p>
           <div className="my-[2rem] text-[1.8rem] bg-[#5CA241] w-[60%]  rounded-lg mx-[auto] text-white border-2 border-transparent hover:border-[#5CA241] hover:bg-white hover:text-[#5CA241]">
-            <Link href="/construction"><p className="text-center leading-[2.7rem] font-bold">{t('cards.learnMore')}</p></Link>
+            <Link href="/construction"><p className="text-center leading-[2.7rem]">{t('cards.learnMore')}</p></Link>
           </div>
         </div>
 
         <div className="bg-white w-[20rem] h-[28rem] border shadow-black shadow rounded-lg">
           <img src="/migracion.png" alt="AI" className="w-[6rem] mx-[auto] mt-[1rem] mb-[1rem]"/>
           <h2 className="text-[2.3rem] font-bold">{t('cards.migration.title')}</h2>
-          <p className="text-[1.3rem] px-[3.5rem] h-[10rem]">{t('cards.migration.description')}</p>
+          <p className="text-[1.3rem] px-[3rem] h-[10rem]">{t('cards.migration.description')}</p>
           <div className="my-[2rem] text-[1.8rem] bg-[#5CA241] w-[60%]  rounded-lg mx-[auto] text-white border-2 border-transparent hover:border-[#5CA241] hover:bg-white hover:text-[#5CA241]">
-            <Link href="/construction"><p className="text-center leading-[2.7rem] font-bold">{t('cards.learnMore')}</p></Link>
+            <Link href="/construction"><p className="text-center leading-[2.7rem]">{t('cards.learnMore')}</p></Link>
           </div>
         </div>
 
@@ -49,7 +49,7 @@ export default async function Home() {
           <h2 className="text-[2.3rem] font-bold">{t('cards.delivery.title')}</h2>
           <p className="text-[1.3rem] px-[3.5rem] h-[10rem]">{t('cards.delivery.description')}</p>
           <div className="my-[2rem] text-[1.8rem] bg-[#5CA241] w-[60%]  rounded-lg mx-[auto] text-white border-2 border-transparent hover:border-[#5CA241] hover:bg-white hover:text-[#5CA241]">
-            <Link href="/construction"><p className="text-center leading-[2.7rem] font-bold">{t('cards.learnMore')}</p></Link>
+            <Link href="/construction"><p className="text-center leading-[2.7rem]">{t('cards.learnMore')}</p></Link>
           </div>
         </div>
 

@@ -7,12 +7,22 @@ async function WhatWeDo(){
         <>
             <div
                 className="h-[30rem] w-[100%] bg-cover bg-center bg-no-repeat flex items-start" 
-                style={{backgroundImage: "url('/cloud-city.jpeg')"}}
+                style={{backgroundImage: "url('/Banner_Background.jpg')"}}
             />
             
             <main className="flex flex-col text-[1.8rem] w-[50%] mx-[auto] mt-[4rem]" >
 
-                <h1 className="text-[5rem] font-bold mb-[1rem] pl-[1rem]">{t('title')}</h1>
+                <div className="flex items-baseline mb-[1rem]" style={{ fontFamily: 'Times New Roman, Times, serif' }}>
+                    <Image
+                        src="/DRTG-complete-logo.png"
+                        alt="DRTG"
+                        width={150}
+                        height={300}
+                    />
+                    <h1 className="text-[4rem] font-bold pl-[1rem] text-[#5CA241]">{t('title')}</h1>
+                </div>
+
+                
 
                 <div className="flex flex-col gap-[3rem] text-gray-400">
                     <p>{t('paragraphs.1')}</p>

@@ -36,7 +36,7 @@ export default function LangSwitch(){
     return(
         <div className="relative group">
 
-            <button className="flex gap-[0rem] px-[.3rem] border-[#5CA241] border-[.3rem] text-[1.5rem] items-center w-[5rem] rounded-lg cursor-pointer">
+            <button className="flex gap-[0rem] px-[.3rem] border-black [#5CA241] border-[.1rem] text-[1.5rem] items-center w-[5rem] rounded-lg cursor-pointer">
                 <img src={targetImage} alt="" className="w-[2rem] mr-[.5rem]"/>
                 <ChevronDownIcon className="w-[1.8rem] h-[1.8rem] transform group-hover:rotate-180 transition-transform duration-200"/>
             </button>

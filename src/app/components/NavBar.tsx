@@ -116,7 +116,7 @@ export default async function NavBar(){
                             type="text"
                             name="search"
                             placeholder={t('search')}
-                            className="bg-gray-50 text-[1.5rem] rounded-[1rem] px-10 py-2 border-[#5CA241] border-[.3rem] border-full w-[20rem]"
+                            className="bg-gray-50 text-[1.5rem] rounded-[1rem] px-10 py-2 border-black [#5CA241] border-[.1rem] border-full w-[20rem]"
                         />
 
                         <img
@@ -131,7 +131,7 @@ export default async function NavBar(){
                 
             </div>
 
-            <div className="flex flex-col items-center  text-[1.2rem] font-bold ">
+            <div className="flex flex-col items-center  text-[1.2rem] font-bold mr-[-15rem] ">
                 <div className="flex">
                     <PhoneIcon className="w-[1.5rem]"/>
                     <p>
@@ -139,7 +139,7 @@ export default async function NavBar(){
                     </p>
                 </div>
                 
-                <div className="flex">
+                <div className="flex ">
                     <PhoneIcon className="w-[1.5rem]"/>
                     <p>
                         Tel: +1 (954) 743-7399
