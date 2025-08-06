@@ -131,30 +131,33 @@ export default async function NavBar(){
                 
             </div>
 
-            <div className="flex flex-col items-center  text-[1.2rem] font-bold mr-[-15rem] ">
-                <div className="flex">
-                    <PhoneIcon className="w-[1.5rem]"/>
-                    <p>
-                        Tel: +1 (954) 647-2606
-                    </p>
-                </div>
-                
-                <div className="flex ">
-                    <PhoneIcon className="w-[1.5rem]"/>
-                    <p>
-                        Tel: +1 (954) 743-7399
-                    </p>
-                </div>
-            </div>
+            <div className="flex gap-[5rem]">
 
-            
-            <div className="flex items-center gap-[0.5rem] text-[1.5rem] font-bold">
+                <div className="flex flex-col items-center  text-[1.2rem] font-bold ">
+                    <div className="flex">
+                        <PhoneIcon className="w-[1.5rem]"/>
+                        <p>
+                            Tel: +1 (954) 647-2606
+                        </p>
+                    </div>
+                    
+                    <div className="flex ">
+                        <PhoneIcon className="w-[1.5rem]"/>
+                        <p>
+                            Tel: +1 (954) 743-7399
+                        </p>
+                    </div>
+                </div>
 
                 
-                <p className="text-[1.1rem]">{t('language')}</p>
-                <LangSwitch/>
+                <div className="flex items-center gap-[0.5rem] text-[1.5rem] font-bold">
+
+                    
+                    <p className="text-[1.1rem]">{t('language')}</p>
+                    <LangSwitch/>
+                </div>
+
             </div>
-            
 
         </div>
     );
