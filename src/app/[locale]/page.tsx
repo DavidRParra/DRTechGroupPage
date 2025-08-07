@@ -61,7 +61,7 @@ export default async function Home() {
         <div className="flex justify-center gap-[1rem]">
 
           <div className="text-[1.8rem] w-[40rem] bg-[#5CA241] text-white shadow-black shadow">
-            <img src="/consultoria.jpg" alt="Consultoria" className="h-[21rem] w-[40rem]"/>
+            <img src="/Consultoria.jpg" alt="Consultoria" className="h-[21rem] w-[40rem]"/>
             <p className="flex justify-center mt-[1rem] h-[5.4rem] items-center text-center">{t('firstPost')}</p>
 
             <div className="bg-white h-[.2rem] w-[35rem] mx-[auto] my-[1rem]"/>
