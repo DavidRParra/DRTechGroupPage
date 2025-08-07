@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/app/components/NavBar";
@@ -44,7 +43,7 @@ export default async function RootLayout({
   return(
     <html>
 
-      <body>
+      <body className={fuente.className}>
         <NextIntlClientProvider messages={messages}>
           {<NavBar/>}
           

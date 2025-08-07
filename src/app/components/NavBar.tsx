@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ChevronDownIcon, PhoneIcon } from "@heroicons/react/20/solid";
 import LangSwitch from "./LangSwitch";
@@ -13,7 +14,7 @@ export default async function NavBar(){
                 className="flex items-center gap-[0.5rem]"
                 >
                 <div className="flex flex-col items-center">
-                    <img src="/DRTG_Logo.png" alt="DRTG Logo" 
+                    <Image src="/DRTG_Logo.png" alt="DRTG Logo" width={500} height={500}
                     className="w-[4rem]"
                     />
                     <p className="text-[#5CA214]">Cloud Tecnology</p>
@@ -119,9 +120,10 @@ export default async function NavBar(){
                             className="bg-gray-50 text-[1.5rem] rounded-[1rem] px-10 py-2 border-black [#5CA241] border-[.1rem] border-full w-[20rem]"
                         />
 
-                        <img
+                        <Image
                             src="/lupa.png"
                             alt="Buscar"
+                            width={500} height={500}
                             className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 pointer-events-none"
                         />
                     </form>

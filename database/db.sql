@@ -4,5 +4,7 @@ CREATE TABLE suscripciones (
     apellido varchar(25) NOT NULL,
     puesto varchar(40) NOT NULL,
     email varchar(100) NOT NULL,
-    mensaje text NOT NULL
+    mensaje text NOT NULL,
+    fisrt_date DATE,
+    Last_date DATE
 );

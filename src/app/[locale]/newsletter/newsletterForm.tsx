@@ -62,17 +62,9 @@ export default function NewsletterFormClient({ translations }: NewsletterFormCli
                 body: JSON.stringify(formData)
             });
 
-            const data = await response.json();
         }catch (error) {
             console.error('Error al enviar el formulario:', error);
         }
-        // Aquí es donde harías la llamada a tu API Route (ej. /api/estudiantes)
-        // Ejemplo:
-        // fetch('/api/estudiantes', {
-        //   method: 'POST',
-        //   headers: { 'Content-Type': 'application/json' },
-        //   body: JSON.stringify(formData)
-        // }).then(res => res.json()).then(data => console.log(data));
     };
 
     return (
@@ -125,9 +117,9 @@ export default function NewsletterFormClient({ translations }: NewsletterFormCli
                 <div className="flex flex-col text-[2rem]">
                     <label htmlFor="email" className="text-[1.5rem]">{translations.emailLabel}</label>
                     <input
-                        name="email" // Corregido de 'enail' a 'email'
+                        name="email"
                         id="email"
-                        type="email" // Tipo correcto para email
+                        type="email"
                         maxLength={100}
                         placeholder={translations.emailPlaceholder}
                         className="border rounded-lg w-[30rem] px-[.5rem]"

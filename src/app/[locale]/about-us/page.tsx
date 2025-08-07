@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 
 
@@ -16,10 +17,12 @@ export default async function AboutUsPage() {
 
             <section className="flex flex-col items-center gap-[4rem]">
                 <div className="flex justify-between items-center w-[60%] gap-[1rem]">
-                    <img 
-                        src="/business-intelligence.png" 
-                        alt="Cloud Computing" 
+                    <Image
+                        src="/business-intelligence.png"
+                        alt="Business Intelligence"
                         className="w-[50%]"
+                        width={500}
+                        height={500}
                     />
 
                     <p className="text-[1.7rem]">{t('paragraphs.1')}</p>
@@ -27,19 +30,23 @@ export default async function AboutUsPage() {
 
                 <div className="flex justify-between items-center w-[60%] gap-[1rem]">
                     <p className="text-[1.7rem]">{t('paragraphs.2')}</p>
-                    <img 
-                        src="/cloud-computing.png" 
-                        alt="Cloud Computing" 
+                    <Image
+                        src="/cloud-computing.png"
+                        alt="Cloud Computing"
                         className="w-[55%]"
+                        width={500}
+                        height={500}
                     />
                 </div>
 
                 <div className="flex justify-between items-center w-[60%] gap-[2rem]">
                     
-                    <img 
-                        src="/system-eco.png" 
-                        alt="Cloud Computing" 
+                    <Image
+                        src="/system-eco.png"
+                        alt="Ecosystem of Systems"
                         className="w-[55%]"
+                        width={500}
+                        height={500}
                     />
                     <p className="text-[1.7rem]">{t('paragraphs.3')}</p>
                 </div>
