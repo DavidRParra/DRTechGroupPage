@@ -1,5 +1,5 @@
 
-
+import Image from 'next/image';
 import {Link} from '@/i18n/navigation'
 import { getTranslations } from "next-intl/server";
 
@@ -90,19 +90,19 @@ async function Footer(){
 
                             <li className="px-4 py-2 rounded-lg">
                                 <Link href="https://mail.google.com/" target="_blank">
-                                    <img src="/gmail.png" alt="Correo" className="w-[3rem]"/>
+                                    <Image src="/gmail.png" alt="Correo" width={500} height={500} className="w-[3rem]"/>
                                 </Link>
                             </li>
 
                             <li className="px-4 py-2 rounded-lg">
                                 <Link href="https://www.linkedin.com/" target="_blank">
-                                    <img src="/linkedin.png" alt="Linkedin" className="w-[3rem]"/>
+                                    <Image src="/linkedin.png" alt="Linkedin" width={500} height={500} className="w-[3rem]"/>
                                 </Link>
                             </li>
 
                             <li className="px-4 py-2 rounded-lg">
                                 <Link href="https://x.com/" target="_blank">
-                                    <img src="/x.png" alt="X" className="w-[3rem]"/>
+                                    <Image src="/x.png" alt="X" width={500} height={500} className="w-[3rem]"/>
                                 </Link>
                             </li>
 

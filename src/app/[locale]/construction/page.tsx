@@ -1,8 +1,8 @@
-
+import Image from "next/image";
 export default function constructionPage() {
     return (
         <div className="flex justify-center">
-            <img src="/under-costruction.svg" alt="Under Construction" className="w-[90rem]"/>
+            <Image src="/under-costruction.svg" width={500} height={500} alt="Under Construction" className="w-[90rem]"/>
         </div>
     );
 }
