@@ -20,6 +20,7 @@ export default async function Page() {
         messagePlaceholder: t('form.messagePlaceholder'),
         subscribeButton: t('form.subscribe'),
         imageAlt: t('form.imageAlt'),
+        alertMessage: t('alert'),
     };
 
     return (

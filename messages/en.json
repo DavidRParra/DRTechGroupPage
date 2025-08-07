@@ -61,6 +61,7 @@
   "Newsletter": {
     "title": "Get Updates from Our Newsletter",
     "description": "Discover everything about data analytics and AI, and get valuable insights for your business. Zero spam guaranteed. You can unsubscribe anytime.",
+    "alert": "Thank you for subscribing!",
     "form": {
       "firstName": "First Name",
       "firstNamePlaceholder": "John ...",

@@ -2,6 +2,7 @@
 'use client'; // <-- ¡MUY IMPORTANTE! Esto lo convierte en un Client Component.
 
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 
 // Definimos la interfaz para las props que esperamos recibir
 interface NewsletterTranslations {
@@ -16,6 +17,7 @@ interface NewsletterTranslations {
     messageLabel: string;
     messagePlaceholder: string;
     subscribeButton: string;
+    alertMessage: string;
     // Agrega aquí todas las demás traducciones que necesites usar dentro de este componente
 }
 
@@ -24,6 +26,7 @@ interface NewsletterFormClientProps {
 }
 
 export default function NewsletterFormClient({ translations }: NewsletterFormClientProps) {
+    const router = useRouter()
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -62,8 +65,14 @@ export default function NewsletterFormClient({ translations }: NewsletterFormCli
                 body: JSON.stringify(formData)
             });
 
+            if(!response.ok) {
+                throw new Error('Error al enviar formulario')
+            }
+            alert(translations.alertMessage)
+            router.push('/')
+
         }catch (error) {
-            console.error('Error al enviar el formulario:', error);
+            console.error('Error: ', error);
         }
     };
 

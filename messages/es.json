@@ -62,6 +62,7 @@
   "Newsletter": {
     "title": "Recibe Novedades de Nuestro Boletín",
     "description": "Descubre todo sobre análisis de datos e IA, y obtén valiosos insights para tu negocio. Cero spam garantizado. Podrás anular la suscripción en cualquier momento.",
+    "alert": "¡Gracias por suscribirte!",
     "form": {
       "firstName": "Nombre",
       "firstNamePlaceholder": "Raul ...",
