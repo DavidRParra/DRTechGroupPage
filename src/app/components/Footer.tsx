@@ -113,7 +113,7 @@ async function Footer(){
 
             </nav>
 
-            <p className="flex justify-center my-0 bg-[#5ca241] text-[1.2rem] text-white">
+            <p className="flex items-center justify-center my-0 bg-[#5ca241] text-[1.2rem] text-black h-[3rem]">
                 &copy; 2025 {t('createBy')} DRTechGroup
             </p>
             
