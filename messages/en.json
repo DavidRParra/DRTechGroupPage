@@ -25,7 +25,8 @@
     "language": "Language",
     "contactUs": "Contact Us",
     "createBy": "All rights reserved | DRTechGroup, LLC | Created by",
-    "payroll": "Payroll"
+    "payroll": "Payroll",
+    "our-leadership-team" : "Our Leadership Team"
   },
 
   "Home": {
@@ -102,6 +103,23 @@
       "4" : "We create and implement technology platform and frameworks that enable are flexible, scalable, and those which can move with business strategies just like your team moves to adjust to market demands.",
 
       "5" : "DRTechGroup delivers excellent digital products and strategy that makes a positive impact on your business, whether that's at the departmental level or at the executive level. We stand by our work product and can guarantee our solutions; that's what we do."
+    }
+  },
+  "ourLeadershipTeam": {
+    "JoseLuis": {
+      "name": "Jose Beato",
+      "position": "CEO",
+      "description": "Senior Analyst and Architect in the cloud with Oracle Cloud Applications. Founder and current CEO of the company, DRTG."
+    },
+    "VictorDelgado": {
+      "name": "Victor Delgado",
+      "position": "Director of Database Administration",
+      "description": "Director of the Database Department and an Oracle BIP/OBIEE consultant."
+    },
+    "DavidParra": {
+      "name": "David Parra",
+      "position": "Developer",
+      "description": "Responsible for DRTG's various developments and an Oracle BIP/OBIEE consultant."
     }
   }
 }

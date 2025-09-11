@@ -100,12 +100,14 @@ export default async function NavBar(){
                                 <ChevronDownIcon className="ml-1 h-[3rem] w-[3rem] transform group-hover:rotate-180 transition-transform duration-450" />
                             </Link>
 
-                            <ul className="absolute hidden group-hover:block bg-gray-100 left-0 top-9 w-[20rem] rounded-lg z-10">
+                            <ul className="absolute hidden group-hover:block bg-gray-100 left-0 top-9 w-[23rem] rounded-lg z-10">
                                 <Link href="/what-we-do" ><li className="hover:bg-[#5CA241] hover:text-[#ffffff] px-4 py-2 rounded-lg">{t('what_we_do')}</li></Link>
                                 <Link href="/construction" ><li className="hover:bg-[#5CA241] hover:text-[#ffffff] px-4 py-2 rounded-lg">{t('support')}</li></Link>
                                 <Link href="/construction" ><li className="hover:bg-[#5CA241] hover:text-[#ffffff] px-4 py-2 rounded-lg">{t('careers')}</li></Link>
                                 <Link href="/construction" ><li className="hover:bg-[#5CA241] hover:text-[#ffffff] px-4 py-2 rounded-lg">{t('partners')}</li></Link>
                                 <Link href="/about-us" ><li className="hover:bg-[#5CA241] hover:text-[#ffffff] px-4 py-2 rounded-lg">{t('about')}</li></Link>
+                                <Link href="/our-leadership-team" ><li className="hover:bg-[#5CA241] hover:text-[#ffffff] px-4 py-2 rounded-lg">{t('our-leadership-team')}</li></Link>
+
                             </ul>
                         </li>
                     </ul>
