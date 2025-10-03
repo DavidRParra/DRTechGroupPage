@@ -27,7 +27,8 @@
     "contactUs": "Contáctanos",
     "createBy": "Derechos reservados | DRTechGroup, SRL | Creado por",
     "payroll": "Nómina",
-    "our-leadership-team" : "Nuestro Equipo Tecnologico"
+    "our-leadership-team" : "Nuestro Equipo Tecnologico",
+    "contact" : "Contactanos"
   },
   
   "Home": {
@@ -114,12 +115,17 @@
     
     "VictorDelgado":{
       "name": "Victor Delgado",
-      "position": "Director administrador de bases de datos",
+      "position": "Director Adm. de bases de datos",
       "description": "Director del departamento de bases de datos y consultor de Oracle BIP/OBIEE."
     },
     "DavidParra":{
       "name": "David Parra",
       "position": "Desarrollador",
+      "description" : "Encargado de los diferentes desarrollos de DRTG y cconsultor de Oracle BIP/OBIEE."
+    },
+    "CarinaDuran":{
+      "name": "Carina Duran",
+      "position": "Desarrollador Web",
       "description" : "Encargado de los diferentes desarrollos de DRTG y cconsultor de Oracle BIP/OBIEE."
     }
   }

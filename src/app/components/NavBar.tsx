@@ -87,7 +87,7 @@ export default async function NavBar(){
                             <ul className="absolute hidden group-hover:block bg-gray-100 left-0 top-9 w-[20rem] rounded-lg z-10">
                                 <Link href="/construction" ><li className="hover:bg-[#5CA241] hover:text-[#ffffff] px-4 py-2 rounded-lg">{t('blog')}</li></Link>
                                 <Link href="/construction" ><li className="hover:bg-[#5CA241] hover:text-[#ffffff] px-4 py-2 rounded-lg">{t('cases')}</li></Link>
-                                <Link href="newsletter" ><li className="hover:bg-[#5CA241] hover:text-[#ffffff] px-4 py-2 rounded-lg">{t('newsletter')}</li></Link>
+                                <Link href="#" ><li className="hover:bg-[#5CA241] hover:text-[#ffffff] px-4 py-2 rounded-lg">{t('newsletter')}</li></Link>
                                 <Link href="/construction" ><li className="hover:bg-[#5CA241] hover:text-[#ffffff] px-4 py-2 rounded-lg">{t('downloads')}</li></Link>
                             </ul>
                         </li>
@@ -110,25 +110,19 @@ export default async function NavBar(){
 
                             </ul>
                         </li>
+
+                        <div className="w-[.2rem] h-[2rem] bg-black rounded-lg"></div>
+                        
+                        <li className="relative group">
+                            <Link href="/contact-us" className="flex items-center hover:text-[#5CA241] font-bold">
+                                {t('contact')}
+                            </Link>
+                        </li>
                     </ul>
 
                     <div className="w-[.2rem] h-[2rem] bg-black rounded-lg"></div>
 
-                    <form action="/buscar" className=" relative max-w-md">
-                        <input 
-                            type="text"
-                            name="search"
-                            placeholder={t('search')}
-                            className="bg-gray-50 text-[1.5rem] rounded-[1rem] px-10 py-2 border-black [#5CA241] border-[.1rem] border-full w-[20rem]"
-                        />
-
-                        <Image
-                            src="/lupa.png"
-                            alt="Buscar"
-                            width={500} height={500}
-                            className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 pointer-events-none"
-                        />
-                    </form>
+                    
 
                 </nav>
 

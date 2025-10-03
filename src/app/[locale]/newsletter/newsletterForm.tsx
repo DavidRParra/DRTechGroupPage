@@ -26,6 +26,8 @@ interface NewsletterFormClientProps {
 }
 
 export default function NewsletterFormClient({ translations }: NewsletterFormClientProps) {
+    const variable = true;
+
     const router = useRouter()
     const [formData, setFormData] = useState({
         firstName: '',
@@ -33,6 +35,7 @@ export default function NewsletterFormClient({ translations }: NewsletterFormCli
         role: '',
         email: '',
         message: ''
+        
     });
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -78,6 +81,7 @@ export default function NewsletterFormClient({ translations }: NewsletterFormCli
 
     return (
         <section className="flex mt-[1rem] justify-center items-center">
+            {variable && 
             <form onSubmit={handleSubmit} className="flex flex-col gap-[1rem]">
                 <div className="flex w-[30rem] gap-[1rem]">
                     <div className="flex flex-col text-[2rem]">
@@ -94,6 +98,7 @@ export default function NewsletterFormClient({ translations }: NewsletterFormCli
                             onChange={handleChange}
                         />
                     </div>
+                    
                     <div className="flex flex-col text-[2rem]">
                         <label htmlFor="lastName" className="text-[1.5rem]">{translations.lastNameLabel}</label>
                         <input
@@ -157,7 +162,13 @@ export default function NewsletterFormClient({ translations }: NewsletterFormCli
                 >
                     <span className="text-[2rem]">{translations.subscribeButton}</span>
                 </button>
-            </form>
+            </form> 
+            
+            || 
+            
+            <p className="text-5xl">Carina Lol</p>
+            
+            }
         </section>
     );
 }

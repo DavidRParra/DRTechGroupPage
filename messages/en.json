@@ -26,7 +26,8 @@
     "contactUs": "Contact Us",
     "createBy": "All rights reserved | DRTechGroup, LLC | Created by",
     "payroll": "Payroll",
-    "our-leadership-team" : "Our Leadership Team"
+    "our-leadership-team" : "Our Leadership Team",
+    "contact" : "Contact Us"
   },
 
   "Home": {
@@ -120,6 +121,11 @@
       "name": "David Parra",
       "position": "Developer",
       "description": "Responsible for DRTG's various developments and an Oracle BIP/OBIEE consultant."
+    },
+    "CarinaDuran":{
+      "name": "Carina Duran",
+      "position": "Web Developer",
+      "description" : "Responsible for DRTG's various developments and an Oracle BIP/OBIEE consultant."
     }
   }
 }

@@ -46,9 +46,11 @@ export default async function RootLayout({
       <body className={fuente.className}>
         <NextIntlClientProvider messages={messages}>
           {<NavBar/>}
-          
-          {children}
 
+          <main className="flex-grow ">
+            {children}
+          </main>
+          
           <Footer/>
         </NextIntlClientProvider>
       </body>
