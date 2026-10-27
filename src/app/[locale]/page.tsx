@@ -58,6 +58,7 @@ export default async function Home() {
       </section>
 
       {/* Blog Section */}
+      
       <section className="px-[1rem] lg:px-0">
         <h1 className="text-[3rem] flex justify-center my-[3rem] text-center">{t('blog')}</h1>
 
