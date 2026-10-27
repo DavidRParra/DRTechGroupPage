@@ -126,6 +126,11 @@
       "name": "Carina Duran",
       "position": "Web Developer",
       "description" : "Responsible for DRTG's various developments and an Oracle BIP/OBIEE consultant."
+    },
+    "ManuelMueses": {
+      "name": "Manuel Mueses",
+      "position": "Senior OIC Consultant",
+      "description": "In charge of cloud integrations and senior OIC consultant at DRTG."
     }
   }
 }

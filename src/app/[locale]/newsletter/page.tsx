@@ -26,17 +26,19 @@ export default async function Page() {
     return (
         <div>
             <main>
-                <div className="flex flex-col gap-[2rem] justify-center w-[100%] h-[20rem] mx-[auto] bg-gray-200">
-                    <h1 className="text-[3rem] font-semibold w-[100rem] mx-[auto]">
+                {/* Cabecera responsiva */}
+                <div className="flex flex-col gap-[1rem] lg:gap-[2rem] justify-center w-full min-h-[15rem] lg:h-[20rem] px-6 lg:px-0 bg-gray-200">
+                    <h1 className="text-[2.2rem] lg:text-[3rem] font-semibold w-full max-w-[100rem] mx-auto text-center lg:text-left">
                         {translationsForClient.title} 
                     </h1>
-                    <p className="text-[1.8rem] w-[100rem] mx-[auto]">
+                    <p className="text-[1.4rem] lg:text-[1.8rem] w-full max-w-[100rem] mx-auto text-center lg:text-left">
                         {translationsForClient.description} 
                     </p>
                 </div>
             </main>
 
-            <div className="flex justify-center items-center gap-0">
+            {/* Contenedor del Formulario e Imagen (Se apilan en móvil, lado a lado en escritorio) */}
+            <div className="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12 px-4 py-8">
                 <NewsletterFormClient translations={translationsForClient} />
 
                 <Image
@@ -44,7 +46,7 @@ export default async function Page() {
                     width={500}
                     height={500}
                     alt={translationsForClient.imageAlt}
-                    className="w-[55rem]"
+                    className="w-full max-w-[25rem] lg:w-[45rem] h-auto object-contain"
                 />
             </div>
         </div>

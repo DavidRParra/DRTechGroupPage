@@ -17,22 +17,20 @@ const fuente = Roboto({
 export const metadata = {
   title: "DRT Group",
   description: "DRT Group - Cloud Technology",
-  icons : {
+  icons: {
     icon: "/DRTG_Logo.png",
     shortcut: "/DRTG_Logo.png",
     apple: "/DRTG_Logo.png",
   },
-  
 };
 
 export default async function RootLayout({
   children,
-  params
+  params,
 }: Readonly<{
   children: React.ReactNode;
-  params : any;
-}>){
-
+  params: any;
+}>) {
   const { locale } = await params;
   if (!routing.locales.includes(locale as any)) {
     notFound();
@@ -40,20 +38,19 @@ export default async function RootLayout({
 
   const messages = await getMessages();
 
-  return(
-    <html>
-
-      <body className={fuente.className}>
+  return (
+    <html lang={locale} className="h-full">
+      <body className={`${fuente.className} flex flex-col min-h-screen`}>
         <NextIntlClientProvider messages={messages}>
-          {<NavBar/>}
+          <NavBar />
 
-          <main className="flex-grow ">
+          <main className="flex-1">
             {children}
           </main>
           
-          <Footer/>
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
-  )
+  );
 }

@@ -124,9 +124,14 @@
       "description" : "Encargado de los diferentes desarrollos de DRTG y cconsultor de Oracle BIP/OBIEE."
     },
     "CarinaDuran":{
-      "name": "Carina Duran",
+      "name": "Carina Mora",
       "position": "Desarrollador Web",
       "description" : "Encargado de los diferentes desarrollos de DRTG y cconsultor de Oracle BIP/OBIEE."
+    },
+    "ManuelMueses":{
+      "name": "Manuel Mueses",
+      "position": "Consultor Senior de OIC",
+      "description" : "Encargado de las integraciones en la nube y consultor senior de OIC en DRTG."
     }
   }
 }
