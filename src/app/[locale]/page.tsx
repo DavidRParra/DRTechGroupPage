@@ -58,14 +58,14 @@ export default async function Home() {
       </section>
 
       {/* Blog Section */}
-      
+
       <section className="px-[1rem] lg:px-0">
         <h1 className="text-[3rem] flex justify-center my-[3rem] text-center">{t('blog')}</h1>
 
         <div className="flex flex-col lg:flex-row justify-center items-center gap-[1rem]">
 
           <div className="text-[1.8rem] w-full max-w-[40rem] bg-[#5CA241] text-white shadow-black shadow">
-            <Image src="/consultoria.jpg" alt="Consultoria" width={500} height={500} className="h-[15rem] lg:h-[21rem] w-full object-cover" />
+            <Image src="/Consultoria.jpg" alt="Consultoria" width={500} height={500} className="h-[15rem] lg:h-[21rem] w-full object-cover" />
             <p className="flex justify-center mt-[1rem] h-[5.4rem] items-center text-center px-2">{t('firstPost')}</p>
             <div className="bg-white h-[.2rem] w-[90%] lg:w-[35rem] mx-[auto] my-[1rem]" />
             <div className="flex justify-between px-[1rem] mb-[1rem]">
