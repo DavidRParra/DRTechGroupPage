@@ -17,13 +17,12 @@ export default async function NavBar() {
           <Link href="/" className="flex items-center gap-[0.5rem]">
             <div className="flex flex-col items-center">
               <Image
-                src="/DRTG_Logo.png"
+                src="/DRTechGroupLogo.png"
                 alt="DRTG Logo"
                 width={500}
                 height={500}
-                className="w-[3.5rem] xl:w-[4rem]"
+                className="w-[3.5rem] xl:w-[6rem]"
               />
-              <p className="text-[#5CA214] text-xs xl:text-base">Cloud Tecnology</p>
             </div>
 
             <div className="h-[4rem] w-[.3rem] bg-black rounded-[1.5rem]"></div>

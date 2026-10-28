@@ -33,22 +33,6 @@ export default async function OurLeadershipTeam() {
         />
       </div>
 
-      {/* Víctor Delgado */}
-      <div className="flex flex-col w-full md:w-[25%] items-center">
-        <div
-          className="w-36 h-36 lg:w-44 lg:h-44 bg-cover bg-bottom rounded-full mx-auto shadow-md"
-          style={{ backgroundImage: "url('/VictorDelgadoProfile.jpeg')" }}
-        />
-
-        <p className="flex items-center justify-center text-[1.4rem] lg:text-[1.8rem] text-center mt-3">
-          {t("VictorDelgado.name")}
-        </p>
-
-        <p className="flex items-center justify-center font-bold text-[1.4rem] lg:text-[1.8rem] text-center">
-          {t("VictorDelgado.position")}
-        </p>
-      </div>
-
       {/* David Parra */}
       <div className="flex flex-col w-full md:w-[25%] items-center">
         <div
@@ -65,6 +49,22 @@ export default async function OurLeadershipTeam() {
         </p>
       </div>
 
+      {/* Víctor Delgado */}
+      <div className="flex flex-col w-full md:w-[25%] items-center">
+        <div
+          className="w-36 h-36 lg:w-44 lg:h-44 bg-cover bg-bottom rounded-full mx-auto shadow-md"
+          style={{ backgroundImage: "url('/VictorDelgadoProfile.jpeg')" }}
+        />
+
+        <p className="flex items-center justify-center text-[1.4rem] lg:text-[1.8rem] text-center mt-3">
+          {t("VictorDelgado.name")}
+        </p>
+
+        <p className="flex items-center justify-center font-bold text-[1.4rem] lg:text-[1.8rem] text-center">
+          {t("VictorDelgado.position")}
+        </p>
+      </div>
+      
       {/* Carina Durán */}
       <div className="flex flex-col w-full md:w-[25%] items-center">
         <div
