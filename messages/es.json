@@ -122,7 +122,7 @@
     
     "VictorDelgado":{
       "name": "Victor Delgado",
-      "position": "Desarrollador Senior de Oracle Fusion Cloud y Administrador de Bases de Datos",
+      "position": "Senior Oracle Fusion Cloud Applications Developer | BI Publisher (BIP), OTBI & Database Administration | Oracle Database, MySQL & Power BI",
       "description": "Director del Departamento de Bases de Datos y consultor experto en Oracle BIP/OBIEE. Cuenta con una sólida trayectoria en el diseño, optimización y administración de arquitecturas de bases de datos de misión crítica, así como en el desarrollo e implementación de soluciones avanzadas sobre Oracle Fusion Cloud para optimizar los procesos de negocio corporativos."
     },
     "DavidParra":{
@@ -137,7 +137,7 @@
     },
     "ManuelMueses":{
       "name": "Manuel Mueses",
-      "position": "Desarrollador de Aplicaciones Oracle Fusion Cloud y OIC",
+      "position": "Senior Oracle Fusion Cloud Developer | OTBI, BIP & OIC Integration Specialist",
       "description" : "Encargado principal de las integraciones en la nube y consultor sénior de Oracle Integration Cloud (OIC) en DRTechGroup (DRTG). Se especializa en diseñar, implementar y asegurar una conectividad robusta y automatizada entre sistemas empresariales heterogéneos y plataformas en la nube."
     }
   }
