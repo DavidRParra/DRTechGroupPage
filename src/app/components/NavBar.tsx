@@ -10,7 +10,7 @@ export default async function NavBar() {
 
   return (
     <header className="relative w-full bg-white shadow-sm z-40">
-      <div className="flex justify-between xl:justify-evenly h-[6rem] items-center px-4 xl:px-0 max-w-[1400px] mx-auto">
+      <div className="flex justify-between xl:justify-evenly h-[9rem] items-center px-4 xl:px-0 max-w-[1400px] mx-auto">
         
         {/* Logo */}
         <div className="flex items-center gap-[1rem] xl:gap-[2rem]">
@@ -21,7 +21,7 @@ export default async function NavBar() {
                 alt="DRTG Logo"
                 width={500}
                 height={500}
-                className="w-[3.5rem] xl:w-[6rem]"
+                className="w-[3.5rem] xl:w-[12rem]"
               />
             </div>
 

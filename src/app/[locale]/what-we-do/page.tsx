@@ -18,11 +18,11 @@ async function WhatWeDo() {
         {/* Encabezado Logo + Título */}
         <div className="flex flex-col sm:flex-row items-center sm:items-baseline mb-[1.5rem] lg:mb-[2rem] gap-2 sm:gap-0" style={{ fontFamily: 'Times New Roman, Times, serif' }}>
           <Image
-            src="/DRTG-complete-logo.png"
+            src="/DRTechGroupLogo.png"
             alt="DRTG"
             width={150}
             height={300}
-            className="w-[100px] sm:w-[130px] lg:w-[150px] h-auto"
+            className="w-[300px] sm:w-[330px] lg:w-[350px] h-auto"
           />
           <h1 className="text-[2.2rem] sm:text-[3rem] lg:text-[4rem] font-bold sm:pl-[1rem] text-[#5CA241] text-center sm:text-left">
             {t('title')}

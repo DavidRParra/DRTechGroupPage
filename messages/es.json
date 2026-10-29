@@ -107,31 +107,38 @@
   },
 
   "ourLeadershipTeam":{
-    "JoseLuis":{
+    "JoseLuis": {
       "name": "Jose Beato",
-      "position": "CEO",
-      "description" : "Senior en Analisis y Arquitectura en el clud con Oracle Cloud Application. Fundador y actual CEO de la compañia DRTG."
+      "position": "CEO & Cloud Solutions Architect",
+      "intro": "Arquitecto de Oracle Cloud Certificado y Líder de Integración con más de 15 años impulsando transformaciones digitales empresariales.",
+      "list": [
+        "Arquitectura Cloud & SaaS: Implementaciones de principio a fin, configuraciones y resolución de problemas en Oracle Fusion Cloud HCM, Nómina, Finanzas y SCM.",
+        "Integración e Ingeniería de Datos: Experto en Oracle Integration Cloud (OIC), APIs REST/SOAP, pipelines ETL, conversiones de datos JDE/E1, HDL, HSDL y FDI.",
+        "Analítica y Reportes: Desarrollo avanzado en BI Publisher y tableros y reportes OTBI.",
+        "Seguridad Cloud e Infraestructura: Certificado como OCI Practitioner y AI Foundations Associate con experiencia práctica en Conceptos de Servicio de Gestión de Identidades y Accesos (IAM) (Autenticación, Usuarios, Grupos, Políticas, Compartimentos).",
+        "Liderazgo: Combina la gobernanza técnica y la gestión de proyectos para entregar soluciones cloud seguras, escalables y de nivel empresarial."
+      ]
     },
     
     "VictorDelgado":{
       "name": "Victor Delgado",
-      "position": "Director Adm. de bases de datos",
-      "description": "Director del departamento de bases de datos y consultor de Oracle BIP/OBIEE."
+      "position": "Desarrollador Senior de Oracle Fusion Cloud y Administrador de Bases de Datos",
+      "description": "Director del Departamento de Bases de Datos y consultor experto en Oracle BIP/OBIEE. Cuenta con una sólida trayectoria en el diseño, optimización y administración de arquitecturas de bases de datos de misión crítica, así como en el desarrollo e implementación de soluciones avanzadas sobre Oracle Fusion Cloud para optimizar los procesos de negocio corporativos."
     },
     "DavidParra":{
       "name": "David Parra",
-      "position": "Desarrollador",
-      "description" : "Encargado de los diferentes desarrollos de DRTG y cconsultor de Oracle BIP/OBIEE."
+      "position": "Desarrollador Senior de Aplicaciones Oracle Fusion Cloud y Desarrollador Web",
+      "description" : "Responsable principal del desarrollo integral y la arquitectura de los diversos proyectos tecnológicos de DRTechGroup (DRTG). Se especializa en la creación de soluciones web, de escritorio y móviles de alto rendimiento, combinando su experiencia como consultor en reportes Oracle BIP y arquitecturas de software modernas."
     },
     "CarinaDuran":{
       "name": "Carina Mora",
-      "position": "Desarrollador Web",
-      "description" : "Encargado de los diferentes desarrollos de DRTG y cconsultor de Oracle BIP/OBIEE."
+      "position": "Desarrolladora Junior de Aplicaciones Oracle Fusion Cloud y Desarrolladora Web",
+      "description" : "Co-responsable de los diversos desarrollos tecnológicos de DRTechGroup (DRTG), aportando soporte clave en ingeniería web, aplicaciones personalizadas y consultoría en herramientas Oracle BIP y modelos de datos."
     },
     "ManuelMueses":{
       "name": "Manuel Mueses",
-      "position": "Consultor Senior de OIC",
-      "description" : "Encargado de las integraciones en la nube y consultor senior de OIC en DRTG."
+      "position": "Desarrollador de Aplicaciones Oracle Fusion Cloud y OIC",
+      "description" : "Encargado principal de las integraciones en la nube y consultor sénior de Oracle Integration Cloud (OIC) en DRTechGroup (DRTG). Se especializa en diseñar, implementar y asegurar una conectividad robusta y automatizada entre sistemas empresariales heterogéneos y plataformas en la nube."
     }
   }
 }

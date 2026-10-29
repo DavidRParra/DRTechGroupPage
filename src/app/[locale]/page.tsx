@@ -17,7 +17,8 @@ export default async function Home() {
       </section>
 
       {/* Cards Section */}
-      <section className="flex flex-col lg:flex-row text-center mt-[2rem] lg:mt-[-15rem] justify-center items-center lg:items-stretch gap-[1rem] px-[1rem] lg:px-0">
+      {/* En móvil se comporta como grid de 2 columnas centradas; en lg vuelve a flex compacto centrado */}
+      <section className="grid grid-cols-2 justify-items-center lg:flex lg:flex-row text-center mt-[2rem] lg:mt-[-15rem] justify-center items-center lg:items-stretch gap-[1rem] px-[0.5rem] lg:px-0 max-w-fit mx-auto">
 
         <div className="bg-white w-full max-w-[20rem] h-[28rem] border shadow-black shadow rounded-lg">
           <Image src="/AI.png" alt="AI" width={500} height={500} className="w-[6rem] mx-[auto] mt-[1rem] mb-[1rem]" />
